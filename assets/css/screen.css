@@ -21,3 +21,33 @@
 @import "misc/utils.css";
 @import "misc/animations.css";
 @import "misc/dark.css";
+
+/* Typographic profile about section
+/* ---------------------------------------------------------- */
+
+.has-typographic-about .gh-about {
+    display: flex;
+    min-height: calc(100vh - 110px);
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.has-typographic-about .gh-about-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: clamp(2.4rem, 2rem + 1.25vw, 4rem);
+}
+
+.has-typographic-about .gh-about-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.has-typographic-about .gh-subscribe-input {
+    margin-top: 48px;
+}
