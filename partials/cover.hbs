@@ -1,6 +1,12 @@
 <div class="cover gh-outer">
     <div class="cover-content gh-inner">
-        {{#if @site.icon}}
+
+        <header class="blog-header">
+            <h1>Howdy, I'm Erin Mikail Staples :Wave:</h1>
+            <h2>I'm a developer advocate, community builder, tech educator, and stand-up comedian living in brooklyn, NYC.</h2>
+        </header>
+
+        {{!-- {{#if @site.icon}}
             <div class="cover-icon">
                 <img class="cover-icon-image" src="{{@site.icon}}" alt="{{@site.title}}">
             </div>
@@ -8,7 +14,7 @@
 
         {{#if @site.description}}
             <div class="cover-description">{{@site.description}}</div>
-        {{/if}}
+        {{/if}} --}}
 
         {{#unless @member}}
             <div class="cover-cta">
