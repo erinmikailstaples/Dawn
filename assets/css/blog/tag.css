@@ -1,6 +1,6 @@
 .tag {
     margin-bottom: 4.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 .tag-name {
@@ -16,6 +16,7 @@
 .tag-description {
     max-width: 520px;
     margin: 16px auto 0;
+    text-align:left;
 }
 
 .tag-list {
