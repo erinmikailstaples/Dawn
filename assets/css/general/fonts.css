@@ -1,37 +1,37 @@
 @font-face {
-    font-family: Mulish;
-    font-style: normal;
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format('woff2');
     font-weight: 400;
-    src: local(""), url("../fonts/mulish-v10-latin-regular.woff2") format("woff2"), url("../fonts/mulish-v10-latin-regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: Mulish;
     font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format('woff2');
     font-weight: 700;
-    src: local(""), url("../fonts/mulish-v10-latin-700.woff2") format("woff2"), url("../fonts/mulish-v10-latin-700.woff") format("woff");
-}
-
-@font-face {
-    font-family: Mulish;
     font-style: normal;
-    font-weight: 800;
-    src: local(""), url("../fonts/mulish-v10-latin-800.woff2") format("woff2"), url("../fonts/mulish-v10-latin-800.woff") format("woff");
-}
+  }
 
-@font-face {
-    font-family: Mulish;
-    font-style: italic;
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format('woff2');
+    font-weight: 00;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format('woff2');
     font-weight: 400;
-    src: local(""), url("../fonts/mulish-v10-latin-italic.woff2") format("woff2"), url("../fonts/mulish-v10-latin-italic.woff") format("woff");
-}
-
-@font-face {
-    font-family: Mulish;
     font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format('woff2');
     font-weight: 700;
-    src: local(""), url("../fonts/mulish-v10-latin-700italic.woff2") format("woff2"), url("../fonts/mulish-v10-latin-700italic.woff") format("woff");
-}
+    font-style: italic;
+  }
 
 @font-face {
     font-family: Lora;
