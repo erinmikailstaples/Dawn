@@ -17,7 +17,7 @@
 }
 
 .button:hover {
-    border-color: var(--mid-gray-color);
+    border-color: var(--hot-pink-color);
     opacity: 1;
 }
 
