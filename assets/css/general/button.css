@@ -3,22 +3,23 @@
     align-items: center;
     justify-content: center;
     height: 36px;
-    padding: 0 15px;
-    font-size: 11px;
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: 800;
     color: var(--brand-color);
     text-transform: uppercase;
     letter-spacing: 0.5px;
     cursor: pointer;
-    background-color: var(--white-color);
-    border: 1px solid var(--light-gray-color);
-    border-radius: 3px;
+    background-color: #e0e0e0;
+    border: none;
+    color: #000000;
+    border-radius: 20px;
     outline: none;
+    transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    border-color: var(--hot-pink-color);
-    opacity: 1;
+    background-color:#a0a0a0;
 }
 
 .button .icon-loading {
