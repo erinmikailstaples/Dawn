@@ -17,17 +17,25 @@
         {{/match}}
     
     {{!-- Popular tags section --}}
-    
-    <section class="popular-tags">
-        <h2>Popular Tags</h2>
-        <ul>
-            {{#get "tags" limit="5" order="count.posts desc"}}
-                {{#foreach tags}}
-                    <li><a href="{{url}}">{{name}}</a></li>
-                {{/foreach}}
-            {{/get}}
-        </ul>
-    </section>
+    {{#get "tags" limit="5" order="count.posts desc" as |popularTags|}}
+    {{#if popularTags}}
+        <div class="gh-outer">
+            <section class="popular-tags-wrapper gh-inner">
+                <h2 class="popular-tags-title">Popular Tags</h2>
+                <div class="popular-tags-feed owl">
+                    {{#foreach popularTags}}
+                        <tag class="popular-tag">
+                            <a href="{{url}}">{{name}}</a>
+                        </tag>
+                    {{/foreach}}
+                </div>
+            </section>
+        </div>
+    {{/if}}
+{{/get}}
+
+
+   
  
     
         {{!-- typographic header --}}
