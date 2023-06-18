@@ -47,13 +47,16 @@
     padding: 0;
     color: var(--darker-gray-color);
     cursor: pointer;
-    background-color: transparent;
-    border: 0;
+    background-color: #e0e0e0;
+    border: none;
+    color: #000000;
+    border-radius: 20px;
     outline: none;
+    transition: background-color 0.3s ease;
 }
 
 .button-icon:hover .icon {
-    opacity: 0.8;
+    background-color:#a0a0a0;
 }
 
 .button-text {
